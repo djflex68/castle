@@ -1,0 +1,1 @@
+module.exports = require("npm:resource-loader@1.6.4/src/index.js");

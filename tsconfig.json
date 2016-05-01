@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true
+    },
+    "exclude": [
+        "typings/main.d.ts",
+        "typings/main",
+        "node_modules",
+        "jspm_packages",
+        "wwwroot",
+        "built"
+    ]
+}
