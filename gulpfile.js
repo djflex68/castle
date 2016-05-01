@@ -10,7 +10,7 @@ gulp.task('ts-changed', ['build'], browserSync.reload);
 gulp.task('build', function() {
 	var tsResult = tsProject.src() // instead of gulp.src(...) 
 		.pipe(ts(tsProject));
-	
+	 
 	return tsResult.js.pipe(gulp.dest('dist'));
 });
 
